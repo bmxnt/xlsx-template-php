@@ -1,5 +1,5 @@
 {
-    "name": "anmoroz/xlsx-template-php",
+    "name": "bmxnt/xlsx-template-php",
     "description": "A library for templating of Excel Office documents. Supports MS Excel xlsx. Uses PHPExcel library.",
     "version": "0.1.1",
     "type": "library",
@@ -20,6 +20,10 @@
         {
             "name": "Andrey Morozov",
             "email": "pavlovsk36@gmail.com"
+        },
+        {
+            "name": "bmxnt",
+            "email": "bmxnt@mail.ru"
         }
     ],
     "autoload": {
