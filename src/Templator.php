@@ -89,7 +89,7 @@ class Templator
 
         foreach ($rowIterator as $row) {
             $cellIterator = $row->getCellIterator();
-            $cellIterator->setIterateOnlyExistingCells($this->needsIgnoreEmpty);
+            $cellIterator->setIterateOnlyExistingCells(!$this->needsIgnoreEmpty);
 
             /** @var \PHPExcel_Cell $cell */
             foreach ($cellIterator as $cell) {
